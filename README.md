@@ -29,6 +29,7 @@ One row per user and one column per product. It's will be 1 if the user have vie
 Use the cosine theorem to calculate any two column data, and the distance of two vectors will be the similarity.
 
 (Product 1, Product 2) similarity
+
 ``a = (0,0,0,1,0)``
 ``b = (1,1,0,0,0)``
 ``similarity =  1 - spatial.distance.cosine(a, b)``
